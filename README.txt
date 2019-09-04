@@ -1,1 +1,0 @@
-This is a personal page I created to practice DOM manipulation to dynamically display my Github repoes with an AJAX call. I had done this before in React but realized I've never done it with just JavaScript. So I created this to try it out. It also has a responsive layout and uses CSS Flexbox.
