@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fffcf6;
+}
+
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 700;
+}
+p {
+  font-size: 20px;
+}
+
+.blue {
+  color: #3686a0;
+}
+
+.ultra-violet {
+  color: #5f4b8b;
+}
+
+.header-container {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bio-left {
+  padding: 20px;
+  width: 500px;
+  height: auto;
+}
+
+.bio-right {
+  text-align: right;
+  padding: 20px;
+  width: 800px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.tech-container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tech-item-container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.tech-item {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#repos-container {
+  padding-top:50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.repo-box {
+  border:2px solid #3686A0 ;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.git-name {
+  padding-bottom: 5px;
+}
+
+.footer-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.footer-right {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-item {
+  color: #5f4b8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.email {
+  margin: 0;
+  padding: 5px;
+  width: auto;
+}
+
+a:link {
+  color: #5f4b8b;
+}
+
+a:visited {
+  color: #5f4b8b;
+}
+
+a:active {
+  color: #5f4b8b;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 16px;
+  }
+  .bio-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .bio-left {
+    padding: 0;
+    width: auto;
+    height: auto;
+  }
+  .bio-right {
+    padding: 10px;
+    width: auto;
+    text-align: center;
+  }
+
+  img {
+    padding:0;
+    max-width: 70%;
+    max-height: auto;
+    margin: auto;
+    display: block;
+  }
+
+  .footer-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer-right {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .email {
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+  }
+
+  .tech-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .tech-item {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+ body{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+  .container {
+    width:1750px;
+  }
+}
